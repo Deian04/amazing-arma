@@ -9,5 +9,19 @@ public class Compania{
         codigoCompania = codigoDeCompania;
     }
 
+    public String getNombreCompania(){
+        return nombreCompania;
+    }
     
+    public int getCodigoCompania(){
+        return codigoCompania;
+    }
+    
+    public void setCambiarCompania(String nuevaCompania){
+        nombreCompania = nuevaCompania;
+    }
+    
+    public void setCambiarCodigo(int nuevoCodigo){
+        codigoCompania = nuevoCodigo;
+    }
 }
