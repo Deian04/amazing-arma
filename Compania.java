@@ -24,4 +24,9 @@ public class Compania{
     public void setCambiarCodigo(int nuevoCodigo){
         codigoCompania = nuevoCodigo;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("El nombre de la compañia es: " + nombreCompania + " El codigo de la compañia es: "+ codigoCompania);
+    } 
+    
 }
