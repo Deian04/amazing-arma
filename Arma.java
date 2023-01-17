@@ -37,6 +37,6 @@ public class Arma{
     }
     
     public void imprimirDetalles(){
-        System.out.println("La capacidad del cargador es: " + capacidadCargador + " El calibre del arma es: " + calibre + " La compañia que ha fabricado este arma es: " + companiaQueFabrica);
+        System.out.println("La capacidad del cargador es: " + capacidadCargador + " El calibre del arma es: " + calibre + " La compañia que ha fabricado este arma es: " + companiaQueFabrica.getNombreCompania());
     }
 }
